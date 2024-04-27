@@ -41,19 +41,19 @@ function App() {
       {loading && <p className="loading">Loading data...</p>}
       {weatherData && (
         <div className="weather-details">
-          <div className="weather-card">
+          <div className="weather-cards">
             <span>Temperature:</span>
             <span>{weatherData.temp_c}°C</span>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <span>Humidity:</span>
             <span>{weatherData.humidity}%</span>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <span>Condition:</span>
             <span>{weatherData.condition.text}</span>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <span>Wind Speed:</span>
             <span>{weatherData.wind_kph} km/h</span>
           </div>

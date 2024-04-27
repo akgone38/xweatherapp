@@ -40,15 +40,8 @@ button:focus {
   justify-content: space-around;
 }
 
-.weather-card {
-  background-color: white;
-  padding: 40px;
-  margin-bottom: 10px; /* Decrease the distance between cards */
-  border-radius: 15px; /* Increase border-radius for rounder corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
-  font-size: 18px; /* Adjust font size */
-}
-.weather-card {
+
+.weather-cards {
   background-color: white;
   padding: 45px; /* Decrease padding to make the card more rectangular */
   border-radius: 8px; /* Adjust border-radius for rectangular corners */
@@ -59,11 +52,11 @@ button:focus {
 
 
 
-.weather-card span {
+.weather-cards span {
   display: block;
 }
 
-.weather-card span:first-child {
+.weather-cards span:first-child {
   font-weight: bold;
 }
 
